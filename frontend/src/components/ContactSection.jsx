@@ -108,7 +108,7 @@ const ContactSection = () => {
               <div className="rounded-xl overflow-hidden h-[500px]">
                 <iframe
                   title="Khalsa Dental Care Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.123456789!2d-121.8123456!3d37.2987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE3JzU1LjYiTiAxMjHCsDQ4JzQ0LjQiVw!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus&q=2850+Quimby+Rd+%23145+San+Jose+CA+95148"
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Khalsa+Dental+Care,2850+Quimby+Rd+145,San+Jose,CA+95148"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
