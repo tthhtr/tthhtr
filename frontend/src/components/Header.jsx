@@ -133,7 +133,7 @@ const Header = () => {
             className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center gap-2">
 
               <Phone className="h-4 w-4" />
-              Call (408) 274-5001
+              Call (408) 274-5000
             </Button>
           </div>
         </div>
