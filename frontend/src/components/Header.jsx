@@ -76,7 +76,7 @@ const Header = () => {
           {/* Call Button */}
           <div className="hidden md:flex items-center">
             <Button
-              onClick={() => window.location.href = 'tel:4082745001'}
+              onClick={() => window.location.href = 'tel:4082745000'}
               className="justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-9 hover:bg-blue-700 transition-all duration-200 flex items-center hover:shadow-md !font-medium !text-sm px-6 py-2.5 gap-2 rounded-lg shadow-sm text-white bg-blue-600">
 
               <Phone className="h-4 w-4" />
