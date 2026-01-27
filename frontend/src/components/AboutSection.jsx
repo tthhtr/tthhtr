@@ -21,7 +21,7 @@ const AboutSection = () => {
     {
       icon: Shield,
       title: 'Trusted in San Jose',
-      description: 'Proudly serving the San Jose community with over 2,600 satisfied patients and counting.'
+      description: 'Proudly serving the San Jose community with quality dental care you can trust.'
     }
   ];
 
