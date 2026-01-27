@@ -129,7 +129,7 @@ const Header = () => {
               Contact
             </button>
             <Button
-            onClick={() => window.location.href = 'tel:4082745001'}
+            onClick={() => window.location.href = 'tel:4082745000'}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition-colors flex items-center justify-center gap-2">
 
               <Phone className="h-4 w-4" />
