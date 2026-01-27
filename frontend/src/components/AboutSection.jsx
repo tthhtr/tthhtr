@@ -16,7 +16,7 @@ const AboutSection = () => {
   {
     icon: Award,
     title: 'Experienced Team',
-    description: 'Our skilled professionals bring years of expertise and ongoing training to deliver exceptional care.'
+    description: 'Dr. Gurdip Narula and Dr. Rajinder Kaur Narula are licensed dental professionals providing general dental care with a focus on patient needs. They work alongside Dr. Gurpreet Narula, who provides in-house endodontic services with a state-certified license. Together, they offer coordinated care under one practice to streamline treatment and improve patient convenience. The team is committed to clear communication, comfort, and consistent clinical standards.'
   },
   {
     icon: Shield,
