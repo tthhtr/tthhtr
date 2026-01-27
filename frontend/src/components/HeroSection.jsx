@@ -10,8 +10,8 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Trusted, Gentle
+              <h1 className="md:text-5xl lg:text-6xl !font-bold !text-4xl text-gray-900">
+                Family Dental Care in San Jose
                 <span className="text-blue-600"> Dental Care</span> in San Jose
               </h1>
               <p className="md:text-xl !text-lg text-gray-600">Experience compassionate, professional dental care for you and your entire family at Khalsa Dental Care.
