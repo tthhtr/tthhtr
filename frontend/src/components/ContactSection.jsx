@@ -3,14 +3,14 @@ import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
 const ContactSection = () => {
   const businessHours = [
-    { day: 'Monday', hours: 'Closed' },
-    { day: 'Tuesday', hours: '9:00 AM - 5:00 PM' },
-    { day: 'Wednesday', hours: '9:00 AM - 5:00 PM' },
-    { day: 'Thursday', hours: '9:00 AM - 5:00 PM' },
-    { day: 'Friday', hours: '9:00 AM - 5:00 PM' },
-    { day: 'Saturday', hours: '9:00 AM - 3:00 PM' },
-    { day: 'Sunday', hours: 'Closed' }
-  ];
+  { day: 'Monday', hours: 'Closed' },
+  { day: 'Tuesday', hours: '9:00 AM - 5:00 PM' },
+  { day: 'Wednesday', hours: '9:00 AM - 5:00 PM' },
+  { day: 'Thursday', hours: '9:00 AM - 5:00 PM' },
+  { day: 'Friday', hours: '9:00 AM - 5:00 PM' },
+  { day: 'Saturday', hours: '9:00 AM - 3:00 PM' },
+  { day: 'Sunday', hours: 'Closed' }];
+
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-blue-50 to-white">
@@ -46,8 +46,8 @@ const ContactSection = () => {
                   href="https://maps.google.com/?q=2850+Quimby+Rd+145+San+Jose+CA+95148"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-700 font-medium mt-2 inline-block"
-                >
+                  className="text-blue-600 hover:text-blue-700 font-medium mt-2 inline-block">
+
                   Get Directions →
                 </a>
               </div>
@@ -64,9 +64,9 @@ const ContactSection = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
                 <a
                   href="tel:4082745001"
-                  className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
-                >
-                  (408) 274-5001
+                  className="hover:text-blue-700 transition-colors !font-bold !text-2xl text-blue-600">(408) 274-5000
+
+
                 </a>
                 <p className="text-gray-600 mt-1">We're here to help!</p>
               </div>
@@ -81,23 +81,23 @@ const ContactSection = () => {
                 <h3 className="text-xl font-semibold text-gray-900">Business Hours</h3>
               </div>
               <div className="space-y-2 ml-1">
-                {businessHours.map((schedule, index) => (
-                  <div
-                    key={index}
-                    className="flex justify-between py-2 border-b border-gray-100 last:border-0"
-                  >
+                {businessHours.map((schedule, index) =>
+                <div
+                  key={index}
+                  className="flex justify-between py-2 border-b border-gray-100 last:border-0">
+
                     <span className="text-gray-700 font-medium">{schedule.day}</span>
                     <span
-                      className={`${
-                        schedule.hours === 'Closed'
-                          ? 'text-gray-400'
-                          : 'text-gray-900 font-medium'
-                      }`}
-                    >
+                    className={`${
+                    schedule.hours === 'Closed' ?
+                    'text-gray-400' :
+                    'text-gray-900 font-medium'}`
+                    }>
+
                       {schedule.hours}
                     </span>
                   </div>
-                ))}
+                )}
               </div>
             </div>
           </div>
@@ -114,8 +114,8 @@ const ContactSection = () => {
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                  referrerPolicy="no-referrer-when-downgrade">
+                </iframe>
               </div>
             </div>
 
@@ -126,9 +126,9 @@ const ContactSection = () => {
                 Call us today to book your appointment. We look forward to seeing you!
               </p>
               <button
-                onClick={() => (window.location.href = 'tel:4082745001')}
-                className="w-full bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 shadow-md hover:shadow-xl flex items-center justify-center gap-2"
-              >
+                onClick={() => window.location.href = 'tel:4082745001'}
+                className="w-full bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 shadow-md hover:shadow-xl flex items-center justify-center gap-2">
+
                 <Phone className="h-5 w-5" />
                 Call (408) 274-5001
               </button>
@@ -136,8 +136,8 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContactSection;
