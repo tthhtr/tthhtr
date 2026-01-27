@@ -22,7 +22,7 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
-                onClick={() => window.location.href = 'tel:4082745001'}
+                onClick={() => window.location.href = 'tel:4082745000'}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
 
                 <Phone className="h-5 w-5" />
