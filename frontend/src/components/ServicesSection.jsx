@@ -99,7 +99,7 @@ const ServicesSection = () => {
             Have questions about our services? We're here to help!
           </p>
           <button
-            onClick={() => (window.location.href = 'tel:4082745001')}
+            onClick={() => (window.location.href = 'tel:4082745000')}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block"
           >
             Contact Us Today
