@@ -63,7 +63,7 @@ const ContactSection = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
                 <a
-                  href="tel:4082745001"
+                  href="tel:4082745000"
                   className="hover:text-blue-700 transition-colors !font-bold !text-2xl text-blue-600">(408) 274-5000
 
 
