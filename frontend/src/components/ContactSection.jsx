@@ -126,7 +126,7 @@ const ContactSection = () => {
                 Call us today to book your appointment. We look forward to seeing you!
               </p>
               <button
-                onClick={() => window.location.href = 'tel:4082745001'}
+                onClick={() => window.location.href = 'tel:4082745000'}
                 className="w-full bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 shadow-md hover:shadow-xl flex items-center justify-center gap-2">
 
                 <Phone className="h-5 w-5" />
