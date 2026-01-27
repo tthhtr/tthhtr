@@ -13,21 +13,8 @@ const ReviewsSection = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            With over 2,600 five-star Google reviews, our patients trust us for exceptional dental care.
+            Hear from our valued patients about their experiences at Khalsa Dental Care.
           </p>
-          
-          {/* Google Rating Highlight */}
-          <div className="inline-flex items-center gap-4 bg-blue-50 px-8 py-4 rounded-2xl">
-            <div className="flex items-center gap-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-6 w-6 fill-yellow-400 text-yellow-400" />
-              ))}
-            </div>
-            <div className="border-l-2 border-blue-200 pl-4">
-              <p className="text-2xl font-bold text-gray-900">4.0+</p>
-              <p className="text-sm text-gray-600">2,600+ Reviews</p>
-            </div>
-          </div>
         </div>
 
         {/* Reviews Grid */}
