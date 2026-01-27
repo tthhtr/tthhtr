@@ -13,8 +13,8 @@ const Footer = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_khalsadental/artifacts/bplh6fzd_image.png"
               alt="Khalsa Dental Care"
-              className="h-12 w-auto mb-4 brightness-0 invert"
-            />
+              className="h-12 w-auto mb-4 brightness-0 invert" />
+
             <p className="text-gray-400 leading-relaxed">
               Providing trusted, gentle dental care to the San Jose community. Your smile is our passion.
             </p>
@@ -30,8 +30,8 @@ const Footer = () => {
                     const element = document.getElementById('home');
                     if (element) element.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Home
                 </button>
               </li>
@@ -41,8 +41,8 @@ const Footer = () => {
                     const element = document.getElementById('about');
                     if (element) element.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   About Us
                 </button>
               </li>
@@ -52,8 +52,8 @@ const Footer = () => {
                     const element = document.getElementById('services');
                     if (element) element.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Services
                 </button>
               </li>
@@ -63,8 +63,8 @@ const Footer = () => {
                     const element = document.getElementById('reviews');
                     if (element) element.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Reviews
                 </button>
               </li>
@@ -84,8 +84,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <a href="tel:4082745000" className="text-gray-400 hover:text-white transition-colors">
-                  (408) 274-5000
+                <a href="tel:4082745000" className="text-gray-400 hover:text-white transition-colors">(408) 274-5000
+
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -106,8 +106,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
