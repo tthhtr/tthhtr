@@ -130,7 +130,7 @@ const ContactSection = () => {
                 className="w-full bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-200 shadow-md hover:shadow-xl flex items-center justify-center gap-2">
 
                 <Phone className="h-5 w-5" />
-                Call (408) 274-5001
+                Call (408) 274-5000
               </button>
             </div>
           </div>
