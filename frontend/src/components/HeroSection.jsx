@@ -14,17 +14,17 @@ const HeroSection = () => {
                 Trusted, Gentle
                 <span className="text-blue-600"> Dental Care</span> in San Jose
               </h1>
-              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                Experience compassionate, professional dental care for your entire family at Khalsa Dental Care.
+              <p className="md:text-xl !text-lg text-gray-600">Experience compassionate, professional dental care for you and your entire family at Khalsa Dental Care.
+
               </p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
-                onClick={() => (window.location.href = 'tel:4082745001')}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
-              >
+                onClick={() => window.location.href = 'tel:4082745001'}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+
                 <Phone className="h-5 w-5" />
                 Call Now
               </Button>
@@ -34,8 +34,8 @@ const HeroSection = () => {
                   if (element) element.scrollIntoView({ behavior: 'smooth' });
                 }}
                 variant="outline"
-                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg rounded-xl font-semibold transition-all duration-200 flex items-center justify-center gap-2"
-              >
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg rounded-xl font-semibold transition-all duration-200 flex items-center justify-center gap-2">
+
                 <Calendar className="h-5 w-5" />
                 Schedule Appointment
               </Button>
@@ -48,16 +48,16 @@ const HeroSection = () => {
               <img
                 src="https://images.unsplash.com/photo-1606811842243-af7e16970c1f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcGF0aWVudHxlbnwwfHx8fDE3Njk0Nzg3Mzh8MA&ixlib=rb-4.1.0&q=85"
                 alt="Professional dental care at Khalsa Dental Care"
-                className="w-full h-auto object-cover"
-              />
+                className="w-full h-auto object-cover" />
+
             </div>
             {/* Decorative Element */}
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-100 rounded-2xl -z-10"></div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
