@@ -5,39 +5,39 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Stethoscope,
-      title: 'General Dentistry',
-      description: 'Comprehensive dental care including routine exams, diagnostics, and treatments for all your oral health needs.',
-      image: 'https://images.unsplash.com/photo-1616391182219-e080b4d1043a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxkZW50YWwlMjBlcXVpcG1lbnR8ZW58MHx8fHwxNzY5NDkzNTYwfDA&ixlib=rb-4.1.0&q=85'
+      title: 'Orthodontics and Braces',
+      description: 'Professional orthodontic treatments including braces and aligners to straighten teeth and create beautiful, healthy smiles.',
+      image: 'https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2'
     },
     {
       icon: Shield,
       title: 'Preventive Care',
       description: 'Proactive dental services to prevent issues before they start, including fluoride treatments and sealants.',
-      image: 'https://images.pexels.com/photos/305567/pexels-photo-305567.jpeg'
+      image: 'https://images.unsplash.com/photo-1704455306251-b4634215d98f'
     },
     {
       icon: Sparkles,
       title: 'Cleanings & Exams',
       description: 'Professional teeth cleaning and thorough examinations to maintain your oral health and bright smile.',
-      image: 'https://images.unsplash.com/photo-1752842350662-2479127ed490?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHw0fHx0ZWV0aCUyMGNsb3NldXB8ZW58MHx8fHwxNzY5NDkzNTU0fDA&ixlib=rb-4.1.0&q=85'
+      image: 'https://images.pexels.com/photos/16212691/pexels-photo-16212691.png'
     },
     {
       icon: ClipboardCheck,
       title: 'Fillings & Restorations',
       description: 'Quality restorative treatments including fillings, crowns, and bridges to repair and strengthen teeth.',
-      image: 'https://images.unsplash.com/photo-1626878880028-0438b1403b3f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwzfHxkZW50YWwlMjBlcXVpcG1lbnR8ZW58MHx8fHwxNzY5NDkzNTYwfDA&ixlib=rb-4.1.0&q=85'
+      image: 'https://images.pexels.com/photos/287237/pexels-photo-287237.jpeg'
     },
     {
       icon: Smile,
       title: 'Cosmetic Dentistry',
       description: 'Enhance your smile with professional cosmetic treatments including whitening and aesthetic improvements.',
-      image: 'https://images.unsplash.com/photo-1756364405980-e705da6a3da6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwyfHx0ZWV0aCUyMGNsb3NldXB8ZW58MHx8fHwxNzY5NDkzNTU0fDA&ixlib=rb-4.1.0&q=85'
+      image: 'https://images.unsplash.com/photo-1609840113564-ab4aba4956c4'
     },
     {
       icon: Baby,
       title: 'Family Dental Care',
       description: 'Gentle, comprehensive dental care for patients of all ages, from young children to seniors.',
-      image: 'https://images.pexels.com/photos/15613760/pexels-photo-15613760.jpeg'
+      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09'
     }
   ];
 
