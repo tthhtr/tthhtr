@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1606811842243-af7e16970c1f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwcGF0aWVudHxlbnwwfHx8fDE3Njk0Nzg3Mzh8MA&ixlib=rb-4.1.0&q=85"
+                src="https://images.unsplash.com/photo-1591283261401-c76eba2d369a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxkZW50YWwlMjBlcXVpcG1lbnR8ZW58MHx8fHwxNzY5NDkzNTYwfDA&ixlib=rb-4.1.0&q=85"
                 alt="Professional dental care at Khalsa Dental Care"
                 className="w-full h-auto object-cover" />
 
