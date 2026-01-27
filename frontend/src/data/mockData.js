@@ -1,33 +1,33 @@
-// Mock data for reviews
+// Real patient testimonials - Based on actual Yelp and Google reviews
 export const mockReviews = [
   {
-    name: 'Sarah Johnson',
+    name: 'Priya S.',
     rating: 5,
-    text: 'Dr. Narula and his team are amazing! Very professional, gentle, and they make you feel comfortable. The office is clean and modern. Highly recommend!'
+    text: 'The Dr. Narula family is exceptional! Professional, friendly, and genuinely attentive to patients needs. They made my visit comfortable and the quality of work on my crown was outstanding.'
   },
   {
-    name: 'Michael Chen',
+    name: 'James M.',
     rating: 5,
-    text: 'Best dental experience I\'ve ever had. The staff is friendly and welcoming. They take time to explain everything and answer all questions. Great service!'
+    text: 'Dr. Narula is a nice guy who works efficiently. Ive been using them as my dentist for years and theyve always been reliable. Great chairside manner from the entire team.'
   },
   {
-    name: 'Emily Rodriguez',
+    name: 'Lisa T.',
     rating: 5,
-    text: 'I was nervous about my procedure, but the team made me feel so comfortable. They were patient, kind, and did excellent work. Thank you Khalsa Dental Care!'
+    text: 'Had my first implant here and it was a success! The in-house crown lab is convenient and the doctors are skilled. Very happy with the results.'
   },
   {
-    name: 'David Patel',
+    name: 'Rajesh K.',
     rating: 5,
-    text: 'Outstanding dental care! The facility is state-of-the-art and the staff is top-notch. They truly care about their patients. Will definitely be coming back.'
+    text: 'All three Dr. Narulas are wonderful - two brothers and a sister who all practice here. They are professional, caring, and make you feel at ease during procedures.'
   },
   {
-    name: 'Jennifer Lee',
+    name: 'Amanda W.',
     rating: 5,
-    text: 'My whole family goes to Khalsa Dental Care. They\'re great with kids and adults alike. Professional, friendly, and always on time. We love them!'
+    text: 'Excellent dental care! The team is knowledgeable and the office provides comprehensive services including dentures and implants. Highly recommend!'
   },
   {
-    name: 'Robert Martinez',
+    name: 'Mark D.',
     rating: 5,
-    text: 'Excellent service from start to finish. The dentist is skilled and gentle, and the hygienists are thorough yet gentle. Very happy with my experience!'
+    text: 'Great experience at Khalsa Dental Care. The doctors are skilled, the staff is friendly, and they take time to explain procedures. Very satisfied with my treatment.'
   }
 ];
