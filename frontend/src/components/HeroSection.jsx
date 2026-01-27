@@ -19,19 +19,6 @@ const HeroSection = () => {
               </p>
             </div>
 
-            {/* Google Rating Badge */}
-            <div className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm border border-gray-100 w-fit">
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <div className="border-l border-gray-300 pl-3">
-                <p className="text-sm font-semibold text-gray-900">4.0+ Rating</p>
-                <p className="text-xs text-gray-600">2,600+ Google Reviews</p>
-              </div>
-            </div>
-
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
