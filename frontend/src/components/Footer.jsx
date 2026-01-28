@@ -13,7 +13,7 @@ const Footer = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_khalsadental/artifacts/bplh6fzd_image.png"
               alt="Khalsa Dental Care"
-              className="h-12 w-auto mb-4 brightness-0 invert" />
+              className="h-14 w-auto" />
 
             <p className="text-gray-400 leading-relaxed">
               Providing trusted, gentle dental care to the San Jose community. Your smile is our passion.
