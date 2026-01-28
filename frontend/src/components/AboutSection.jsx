@@ -69,7 +69,7 @@ const AboutSection = () => {
               Our Commitment to Excellence
             </h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p className="">With years of experience serving the San Jose community, Khalsa Dental Care has built a reputation for providing exceptional dental care that combines advanced technology with a gentle, compassionate approach. The Exceptional Dentistry Registry wrote that our clinic is "an example of “Exceptional Patient Safety and Dental Office compliance!"
+              <p className="">With over three decades of experience serving the San Jose community, Khalsa Dental Care has built a reputation for providing exceptional dental care that combines advanced technology with a gentle, compassionate approach. The Exceptional Dentistry Registry wrote that our clinic is "an example of “Exceptional Patient Safety and Dental Office compliance!"
 
               </p>
               <p>
